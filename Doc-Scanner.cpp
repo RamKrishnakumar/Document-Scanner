@@ -42,7 +42,7 @@ vector<Point> getContours(Mat img) {
 
 	for (int i=0; i < contours.size(); i++) {
 		int area = contourArea(contours[i]);
-		cout << area;
+		//cout << area;
 
 		string objectType;
 		float peri = arcLength(contours[i], true);
